@@ -23,7 +23,7 @@ int main()
             cout << arr[mid];
             break;
         }
-        else if(mid == 0 && arr[mid]>key || arr[mid]>key && key>arr[mid+1])
+        else if(mid == 0 && arr[mid]>key || arr[mid]>key && key>arr[mid-1])
         {
             cout << arr[mid];
             break;
